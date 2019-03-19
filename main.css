@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins',sans-serif;
+	color: #222;	
+}
+
+body{
+	line-height: 1.6em;
+	background-attachment: fixed;
+	background-image: url(images/backgroundweb2.jpg);
+	background-repeat: no-repeat;  
+	background-size: cover; 
+	
+}
+
+
+
+.navbar{
+	padding: .8rem;
+}
+
+.navbar a img
+{
+	max-width: 50%;
+	max-height: 50%;
+}
+.navbar-nav li{
+	padding-right: 20px;
+}
+
+.nav-link{
+	font-size: 1.1em !important;
+}
+
+.navbar-light
+{
+background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.color2
+{
+	background: #E44D26;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 0.9;
+}
+
+
+.color1
+{
+	background: #FFEFBA;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 0.8;
+}
+
+.carousel-inner img{
+	height: 100%;
+	width: 100%;
+
+}
+
+.carousel-caption{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.carousel-caption h1{
+	font-size: 500%;
+	text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000	
+}
+
+.padding
+{
+	padding-bottom: 2rem;
+}
+.welcome
+{
+	width: 75%; 
+	margin: 0 auto;
+	padding-top: 2rem; 
+}
+
+.welcome hr {
+border-top: 2px solid #b4b4b4;
+width: 95%;
+margin-top: .3rem;
+margin-bottom: 1rem;
+
+}
+
+
+.lead
+{
+
+}
+.social a{
+	font-size: 4.5em;
+	padding: 3rem; 
+}
+
+.fa-facebook{
+	color: #3b5998;
+}
+
+.fa-twitter{
+color: #00aced;
+
+}
+
+.fa-instagram
+{
+	color: #517fa8;
+
+}
+
+.fa-youtube
+{
+	color: #bb0000;
+}
+
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+	color:#d5d5d5;
+}
+
+
+footer{
+	padding-top: 2rem;
+	color: #d5d5d5
+}
+hr.light 
+{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+
+hr.light-100 
+{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem; 
+}
+
+
+footer a{
+	color: #d5d5d5
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quries */
+
+@media (max-width: 992px){
+
+
+
+.social a{
+	font-size: 4em;
+	padding: 2rem; 
+
+
+}
+
+
+}
+
+@media all and (max-width: 768px){
+
+body
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.carousel-caption{
+	position: absolute;
+	top:45%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.carousel-caption h1{
+	font-size: 350%;
+	
+}
+
+.carousel-caption h3 {
+	font-size: 140%;
+	font-weight: 400;
+		
+}
+
+.display-4{
+	font-size: 200%;
+}
+
+.social a{
+	font-size: 2.5em;
+	padding: 1.2rem; 
+}
+
+	
+}
+
+@media all and (max-width: 576px){
+	
+
+body
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.carousel-caption{
+	position: absolute;
+	top:4%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.carousel-caption h1{
+	font-size: 250%;
+	
+}
+
+.carousel-caption h3 {
+	font-size: 90%;
+	padding:4px 8px;
+		
+}	
+
+.display-4{
+	font-size: 160%;
+}
+
+.social a{
+	font-size: 2em;
+	padding: .7rem; 
+}
+
+}
+
+
+
