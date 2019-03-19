@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-body{
+html {
 	height: 100%;
 	width: 100%;
 	font-family: 'Poppins',sans-serif;
@@ -8,6 +8,8 @@ body{
 }
 
 body{
+	width: 90%;
+	margin: 0 auto;
 	line-height: 1.6em;
 	background-attachment: fixed;
 	background-image: url(images/backgroundweb2.jpg);
@@ -26,14 +28,18 @@ body{
 {
 	max-width: 50%;
 	max-height: 50%;
+
 }
 .navbar-nav li{
 	padding-right: 20px;
+	 text-align: center;
 }
 
 .nav-link{
 	font-size: 1.1em !important;
+ text-align: center;
 }
+
 
 .navbar-light
 {
@@ -108,7 +114,8 @@ margin-bottom: 1rem;
 
 .lead
 {
-
+	text-align: justify;
+  	text-justify: inter-word;
 }
 .social a{
 	font-size: 4.5em;
@@ -202,12 +209,7 @@ footer a{
 
 @media all and (max-width: 768px){
 
-body
-{
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
+
 
 
 .carousel-caption{
